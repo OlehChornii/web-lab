@@ -1,0 +1,23 @@
+:root{
+  font-family: system-ui, Arial, sans-serif;
+  --accent: #2b7a78;
+}
+body{
+  margin:0;
+  padding:20px;
+  background:#f6f6f6;
+  color:#222;
+}
+header{
+  background:var(--accent);
+  color:white;
+  padding:12px;
+  border-radius:8px;
+  margin-bottom:16px;
+}
+button{
+  padding:8px 12px;
+  border-radius:6px;
+  border:0;
+  cursor:pointer;
+}
